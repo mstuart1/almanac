@@ -1,5 +1,5 @@
 from flask_frozen import Freezer
-from flask_netlify import app
+from almanac import app
 
 freezer = Freezer(app)
 
